@@ -1,3 +1,6 @@
+const speed = prompt("Enter Speed");
+speedDetector(speed);
+
 function speedDetector(inputSpeed){
     let answer = "";
     let demerits;
@@ -16,6 +19,6 @@ function speedDetector(inputSpeed){
             answer = "License suspended " + demerits;
         }
     }
-    return answer;
+    document.getElementById("returns").innerText = answer;
 }
-console.log(speedDetector(160))
+// console.log(speedDetector(160))

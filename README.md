@@ -37,7 +37,11 @@ directory in the terminal, then run `code .` to open the files in Visual Studio
 Code.
 
 # Live Link
+http://127.0.0.1:5500/grades.html
 
+http://127.0.0.1:5500/speed.html
+
+http://127.0.0.1:5500/salaryCalc.html
 
 ## Technologies used
 HTML
