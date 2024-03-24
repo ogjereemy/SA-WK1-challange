@@ -85,6 +85,9 @@
 // // console.log("Deductions:", salaryDetails.deductions);
 // // console.log("Net Salary:", salaryDetails.netSalary);
 
+
+
+//trial one
 function tax(incomeSalary){
     let taxed = 0;
     let grossTax = 0;
@@ -111,4 +114,13 @@ function tax(incomeSalary){
     }
     return taxed;
 }
-console.log(tax(20000))
+
+// Function to calculate NHIF deductions
+function calculateNHIF(grossSalary) {
+    for (const rate of nhifRates) {
+        if (grossSalary >= 0 && grossSalary <= 5999) {
+            return rate;
+        }
+    }
+}
+console.log(rate(5000));
